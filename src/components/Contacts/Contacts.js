@@ -167,7 +167,7 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact</h1>
                 <div className='contacts-body'>
                     {/* <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
@@ -292,7 +292,7 @@ function Contacts() {
                                 {contactsData.email}
                             </p>
                         </a>
-                        <a
+ {/*                       <a 
                             // href={`tel:${contactsData.phone}`}
                             className='personal-details'
                         >
@@ -303,6 +303,7 @@ function Contacts() {
                                 {contactsData.phone}
                             </p>
                         </a>
+                */  }                      
                         <div className='personal-details'>
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />

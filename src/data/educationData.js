@@ -1,23 +1,24 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
-    },
-    {
-        id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
+        institution: 'University of Birmingham',
+        course: 'MSc Computer Science',
         startYear: '2019',
         endYear: '2021'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: '日本語のFutaba Language School',
+        course: 'Japanese Language - N2',
+        startYear: '2016',
+        endYear: '2017'
     },
+    {
+        id: 2,
+        institution: 'Keele University',
+        course: 'BSc Dual Honours Biochemistry & Neuroscience',
+        startYear: '2011',
+        endYear: '2014'
+    },
+
 ]

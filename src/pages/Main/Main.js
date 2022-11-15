@@ -30,11 +30,11 @@ function Main() {
       <Skills />
       <Education />
       <Projects />
-      <Achievement />
+      {/*<Achievement /> */}
       {/* <Blog /> */}
       <Services />
       <Contacts />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

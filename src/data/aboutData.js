@@ -5,6 +5,6 @@ export const aboutData = {
   description2:
     'I grew up in Coventry, had cross country national trials in high school, graduated with a BSc in Biochem & Neuroscience and I wanted to broaden my skillset and left for greener pastures to Osaka, Japan in 2015, where I taught English for two years and developed an addiction to (authentic) sushi. I returned to the UK where I worked in technical sales of laser heatsinks which gave me the incredible opportunity of travelling all over the world, where I picked up essential German phrases like "Ein Weissbier, bitte" ',
   description3:
-    'I decided to have a major career change in summer 2019, where I enrolled in MSc Computer Sci at UoB. At the time I had no experience with programming but I had the most important motivation, a vision of an app I wanted to create. After failing many times on my journey I managed to create the application I envisaged (see honyomi below). I would like to enable and share my knowledge to those who are thinking about a career in software',
+    'I decided to have a major career change in summer 2019, where I enrolled in MSc Computer Sci at UoB. At the time I had no experience with programming but I had the most important motivation, a vision of an app I wanted to create. After failing many times on my journey I managed to create the application I envisaged (see honyomi below). I would like to enable and share my knowledge to those who are creative or are thinking about a career in software',
   image: 2,
 };

@@ -15,7 +15,7 @@ export const blogData = [
       'For those who are familiar with Javascript and want to become job interview ready',
     date: 'March, 2023',
     image: 'https://miro.medium.com/max/1400/1*OUjorKRqq2uWsBPXsuna6g.png',
-    url: 'https://medium.com/@sreerag.rajan5/cloning-reliance-digital-439cd56d46a3',
+    url: '#',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const blogData = [
     date: 'January, 2023',
     image:
       'https://t4.ftcdn.net/jpg/00/33/86/49/360_F_33864906_TUI2XJHIumrdXupgxHcEpJ2EfJ3TddPx.jpg',
-    url: 'https://medium.com/@sreerag.rajan5/reliance-digital-clone-part-ii-57797eaf1ddf',
+    url: 'https://medium.com/@sreerag.ra57797eaf1ddf',
   },
 ];
 

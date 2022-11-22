@@ -6,17 +6,17 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from 'react-icons/ai';
 
 import './CoursePage.css';
-import { SingleCourse } from '../../components/Course';
+import { SingleCourse } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { webDev8WcourseData } from '../../data/webDev8WcourseData';
 import { headerData } from '../../data/headerData';
 
-function coursePage() {
+function CoursePage() {
   const [search, setSearch] = useState('');
   const { theme } = useContext(ThemeContext);
 
-  const filteredArticles = courseData.filter((course) => {
-    const content = course.title + course.description + course.date;
+  const filteredArticles = webDev8WcourseData.filter((course) => {
+    const content = course.title + course.description;
     return content.toLowerCase().includes(search.toLowerCase());
   });
 
@@ -104,14 +104,10 @@ function coursePage() {
             justifyContent='center'
           >
             {filteredArticles.reverse().map((course) => (
-              <Singlecourse
+              <SingleCourse
                 theme={theme}
                 title={course.title}
                 desc={course.description}
-                date={course.date}
-                image={course.image}
-                url={course.url}
-                key={course.id}
                 id={course.id}
               />
             ))}
@@ -122,4 +118,4 @@ function coursePage() {
   );
 }
 
-export default coursePage;
+export default CoursePage;

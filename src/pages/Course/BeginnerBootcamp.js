@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from 'react-icons/ai';
 
-import './CoursePage.css';
+import './BeginnerBootcamp.css';
 import { SingleCourse } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { webDev8WcourseData } from '../../data/webDev8WcourseData';
 import { headerData } from '../../data/headerData';
 
-function CoursePage() {
+function BeginnerBootcamp() {
   const [search, setSearch] = useState('');
   const { theme } = useContext(ThemeContext);
 
@@ -72,29 +72,23 @@ function CoursePage() {
   const classes = useStyles();
 
   return (
-    <div className='coursePage' style={{ backgroundColor: theme.secondary }}>
+    <div
+      className='beginnerBootcamp'
+      style={{ backgroundColor: theme.secondary }}
+    >
       <Helmet>
         <title>{headerData.name} | course</title>
       </Helmet>
       <div
-        className='coursePage--header'
+        className='beginnerBootcamp--header'
         style={{ backgroundColor: theme.primary }}
       >
         <Link to='/'>
           <AiOutlineHome className={classes.home} />
         </Link>
-        <h1 style={{ color: theme.secondary }}>Courses</h1>
+        <h1 style={{ color: theme.secondary }}>8 Week Fundamentals</h1>
       </div>
-      <div className='coursePage--container'>
-        <div className='course--search'>
-          <input
-            type='text'
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder='Seach courses...'
-            className={classes.search}
-          />
-        </div>
+      <div className='beginnerBootcamp--container'>
         <div className='courses--container'>
           <Grid
             className='course-grid'
@@ -103,12 +97,13 @@ function CoursePage() {
             alignItems='center'
             justifyContent='center'
           >
-            {filteredArticles.reverse().map((course) => (
+            {filteredArticles.map((course) => (
               <SingleCourse
                 theme={theme}
                 title={course.title}
                 desc={course.description}
                 id={course.id}
+                image={course.image}
               />
             ))}
           </Grid>
@@ -118,4 +113,4 @@ function CoursePage() {
   );
 }
 
-export default CoursePage;
+export default BeginnerBootcamp;

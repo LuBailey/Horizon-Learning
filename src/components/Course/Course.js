@@ -57,6 +57,7 @@ function Course() {
                   title={course.title}
                   desc={course.description}
                   id={course.id}
+                  image={course.image}
                 />
               ))}
             </div>

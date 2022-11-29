@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleCourse.css';
 
-function SingleCourse({ theme, title, desc, id }) {
+function SingleCourse({ theme, title, desc, id, image }) {
   return (
     <Fade bottom>
       <a
@@ -16,6 +16,7 @@ function SingleCourse({ theme, title, desc, id }) {
       >
         <div className='singleCourse--body'>
           <h3 style={{ color: theme.secondary }}>{title}</h3>
+          <img src={image ? image : placeholder} />
           <h6 style={{ color: theme.secondary }}>{desc}</h6>
         </div>
       </a>

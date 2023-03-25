@@ -12,11 +12,12 @@ export const servicesData = [
   //     title: 'Marketing',
   //     icon: <BiShoppingBag/>
   // },
-  {
-    id: 2,
-    title: 'DOTA 2 deboost',
-    icon: <GiGamepad />,
-  },
+
+  //{
+  //  id: 2,
+  //  title: 'DOTA 2 deboost',
+  //  icon: <GiGamepad />,
+  // },
   {
     id: 3,
     title: 'Scientific Reports (LaTeX)',

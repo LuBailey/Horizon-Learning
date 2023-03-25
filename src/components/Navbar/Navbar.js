@@ -136,8 +136,6 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='navbar--container'>
-        <h1 style={{ color: theme.secondary }}>{shortname(headerData.name)}</h1>
-
         <IoMenuSharp
           className={classes.navMenu}
           onClick={handleDrawerOpen}
@@ -189,7 +187,7 @@ function Navbar() {
             </Fade>
 
             <Fade left>
-              <NavLink to='/#about' smooth={true} spy='true' duration={2000}>
+              <NavLink to='/tutor' smooth={true} spy='true' duration={2000}>
                 <div className={classes.drawerItem}>
                   <FaUser className={classes.drawerIcon} />
                   <span className={classes.drawerLinks}>About</span>
@@ -205,23 +203,28 @@ function Navbar() {
                 duration={2000}
               >
                 <div className={classes.drawerItem}>
-                  <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Beginners</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to='/#skills' smooth={true} spy='true' duration={2000}>
-                <div className={classes.drawerItem}>
                   <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Skills</span>
+                  <span className={classes.drawerLinks}>Dev Bootcamp</span>
                 </div>
               </NavLink>
             </Fade>
 
             <Fade left>
-              <NavLink to='/#projects' smooth={true} spy='true' duration={2000}>
+              <NavLink
+                to='/japaneseforbeginners'
+                smooth={true}
+                spy='true'
+                duration={2000}
+              >
+                <div className={classes.drawerItem}>
+                  <HiDocumentText className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>Japanese 日本語</span>
+                </div>
+              </NavLink>
+            </Fade>
+
+            <Fade left>
+              <NavLink to='/projects' smooth={true} spy='true' duration={2000}>
                 <div className={classes.drawerItem}>
                   <FaFolderOpen className={classes.drawerIcon} />
                   <span className={classes.drawerLinks}>Projects</span>

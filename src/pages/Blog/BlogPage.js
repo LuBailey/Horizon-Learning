@@ -3,10 +3,9 @@ import { Helmet } from 'react-helmet';
 import { Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import { AiOutlineHome } from 'react-icons/ai';
 
 import './BlogPage.css';
-import { SingleBlog } from '../../components';
+import { Navbar, SingleBlog } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { blogData } from '../../data/blogData';
 import { headerData } from '../../data/headerData';
@@ -76,13 +75,11 @@ function BlogPage() {
       <Helmet>
         <title>{headerData.name} | Blog</title>
       </Helmet>
+      <Navbar />
       <div
         className='blogPage--header'
         style={{ backgroundColor: theme.primary }}
       >
-        <Link to='/'>
-          <AiOutlineHome className={classes.home} />
-        </Link>
         <h1 style={{ color: theme.secondary }}>Courses</h1>
       </div>
       <div className='blogPage--container'>

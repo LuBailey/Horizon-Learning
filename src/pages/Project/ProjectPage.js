@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from 'react-icons/ai';
 
 import './ProjectPage.css';
-import { SingleProject } from '../../components';
+import { Navbar, SingleProject } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { projectsData } from '../../data/projectsData';
 import { headerData } from '../../data/headerData';
@@ -76,13 +76,11 @@ function ProjectPage() {
       <Helmet>
         <title>{headerData.name} | Projects</title>
       </Helmet>
+      <Navbar />
       <div
         className='projectPage-header'
         style={{ backgroundColor: theme.primary }}
       >
-        <Link to='/'>
-          <AiOutlineHome className={classes.home} />
-        </Link>
         <h1 style={{ color: theme.secondary }}>Projects</h1>
       </div>
       <div className='projectPage-container'>

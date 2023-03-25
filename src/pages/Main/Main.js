@@ -22,14 +22,14 @@ function Main() {
   return (
     <div>
       <Helmet>
-        <title>{headerData.name} - Porfolio</title>
+        <title> Learning Experience</title>
       </Helmet>
       <Navbar />
       <Landing />
-      <About />
-      <Skills />
-      <Education />
-      <Projects />
+      {/*<About /> */}
+      {/*<Skills /> */}
+      {/*<Education /> */}
+      {/*<Projects /> */}
       {/*<Achievement /> */}
       {/* <Blog /> */}
       <Services />

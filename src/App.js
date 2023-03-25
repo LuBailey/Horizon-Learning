@@ -7,8 +7,16 @@ import {
 } from 'react-router-dom';
 
 import { ThemeContext } from './contexts/ThemeContext';
-import { Main, BlogPage, BeginnerBootcamp, ProjectPage } from './pages';
-import { BackToTop } from './components';
+import {
+  Main,
+  BlogPage,
+  BeginnerBootcamp,
+  BeginnerJapanese,
+  ProjectPage,
+  AboutPage,
+  Tutor,
+} from './pages';
+import { About, BackToTop } from './components';
 import ScrollToTop from './utils/ScrollToTop';
 
 import './App.css';
@@ -23,9 +31,16 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path='/' exact component={Main} />
-          <Route path='/blog' exact component={BlogPage} />
+          <Route path='/courses' exact component={BlogPage} />
           <Route path='/beginnerbootcamp' exact component={BeginnerBootcamp} />
+          <Route
+            path='/japaneseforbeginners'
+            exact
+            component={BeginnerJapanese}
+          />
           <Route path='/projects' exact component={ProjectPage} />
+          <Route path='/about' exact component={AboutPage} />
+          <Route path='/tutor' exact component={Tutor} />
 
           <Redirect to='/' />
         </Switch>

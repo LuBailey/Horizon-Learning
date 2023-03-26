@@ -204,7 +204,9 @@ function Navbar() {
               >
                 <div className={classes.drawerItem}>
                   <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Dev Bootcamp</span>
+                  <span className={classes.drawerLinks}>
+                    Developer Bootcamp
+                  </span>
                 </div>
               </NavLink>
             </Fade>

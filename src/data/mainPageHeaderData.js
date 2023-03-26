@@ -1,6 +1,6 @@
 export const mainPageHeaderData = {
-  name: 'Learn Web Development in Kenilworth',
-  title: 'Interested in a career in software? Build upon your current skills',
+  name: 'Learn Web Development in Coventry & Warwickshire',
+  title: 'Interested in a career in software? Hone your skills',
   desciption:
     'The courses are designed for people with all abilities to fully engage and get involved on projects you can be proud of!',
   image:

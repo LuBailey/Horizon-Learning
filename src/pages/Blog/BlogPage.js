@@ -83,7 +83,7 @@ function BlogPage() {
         <h1 style={{ color: theme.secondary }}>Courses</h1>
       </div>
       <div className='blogPage--container'>
-        <div className='blog--search'>
+        {/* <div className='blog--search'>
           <input
             type='text'
             value={search}
@@ -92,6 +92,7 @@ function BlogPage() {
             className={classes.search}
           />
         </div>
+  */}
         <div className='blogs--container'>
           <Grid
             className='blog-grid'

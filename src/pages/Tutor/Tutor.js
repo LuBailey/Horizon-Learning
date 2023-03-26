@@ -22,7 +22,7 @@ function Tutor() {
   return (
     <div>
       <Helmet>
-        <title>{headerData.name} - Porfolio</title>
+        <title> Horizon Learning </title>
       </Helmet>
       <Navbar />
       <Landing />

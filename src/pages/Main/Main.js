@@ -5,7 +5,9 @@ import {
   Navbar,
   Footer,
   Landing,
+  MainLanding,
   About,
+  AboutMain,
   Skills,
   Testimonials,
   Blog,
@@ -22,11 +24,13 @@ function Main() {
   return (
     <div>
       <Helmet>
-        <title> Learning Experience</title>
+        <title> Horizon Learning </title>
       </Helmet>
       <Navbar />
-      <Landing />
+      {/*<Landing /> */}
+      <MainLanding />
       {/*<About /> */}
+      <AboutMain />
       {/*<Skills /> */}
       {/*<Education /> */}
       {/*<Projects /> */}
@@ -34,7 +38,7 @@ function Main() {
       {/* <Blog /> */}
       <Services />
       <Contacts />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

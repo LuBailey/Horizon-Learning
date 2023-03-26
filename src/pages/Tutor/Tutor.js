@@ -32,9 +32,9 @@ function Tutor() {
       <Projects />
       {/*<Achievement /> */}
       {/* <Blog /> */}
-      <Services />
-      <Contacts />
-      {/* <Footer /> */}
+      {/* <Services /> */}
+      {/* <Contacts /> */}
+      <Footer />
     </div>
   );
 }

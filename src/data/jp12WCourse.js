@@ -8,8 +8,9 @@ export const jp12WCourse = [
         １周目<rt>いっしゅうめ</rt>
       </ruby>
     ),
-    description:
-      'Setup your Github so you are able to share code and show off your projects. Also ensure you have your dev environment (IDE) setup!',
+    description: '挨拶、簡単な文章を練習しましょう！　ひらがなとカタカナを紹介',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVsSZr0oZGkmmOYimY7CXUyl_zfGInfx49kA&usqp=CAU',
   },
   {
     id: 2,
@@ -19,7 +20,7 @@ export const jp12WCourse = [
       </ruby>
     ),
     description:
-      "Let's get a functional page running to display text and a background image using HTML.",
+      '簡単な用事を練習しましょう！　文章の構造を理解。家にある物を説明',
   },
   {
     id: 3,
@@ -28,8 +29,7 @@ export const jp12WCourse = [
         ３周目<rt>さんしゅうめ</rt>
       </ruby>
     ),
-    description:
-      "Let's spice up the webpage to be more colourful and learn how to move images and text using CSS.",
+    description: '',
   },
   {
     id: 4,

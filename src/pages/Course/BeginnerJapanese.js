@@ -76,7 +76,7 @@ function BeginnerJapanese() {
       style={{ backgroundColor: theme.secondary }}
     >
       <Helmet>
-        <title>Japanese Language</title>
+        <title>Horizon Learning - Japanese Language</title>
       </Helmet>
 
       <Navbar />
@@ -86,6 +86,7 @@ function BeginnerJapanese() {
         style={{ backgroundColor: theme.primary }}
       >
         <h1 style={{ color: theme.secondary }}>
+          Japanese Corner <br />
           <ruby>
             初心者<rt>しょしんしゃ</rt>
           </ruby>

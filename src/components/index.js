@@ -5,6 +5,7 @@ export { default as MainLanding } from './MainLanding/MainLanding';
 
 export { default as About } from './About/About';
 export { default as AboutMain } from './AboutMain/AboutMain';
+export { default as AboutCourse } from './AboutCourse/AboutCourse';
 export { default as Skills } from './Skills/Skills';
 export { default as Testimonials } from './Testimonials/Testimonials';
 export { default as Blog } from './Blog/Blog';

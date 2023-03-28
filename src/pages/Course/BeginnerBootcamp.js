@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from 'react-icons/ai';
 
 import './BeginnerBootcamp.css';
-import { SingleCourse, Navbar } from '../../components';
+import { SingleCourse, Navbar, AboutCourse, About } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { webDev8WcourseData } from '../../data/webDev8WcourseData';
 import { headerData } from '../../data/headerData';
@@ -82,12 +82,7 @@ function BeginnerBootcamp() {
 
       <Navbar />
 
-      <div
-        className='beginnerBootcamp--header'
-        style={{ backgroundColor: theme.primary }}
-      >
-        <h1 style={{ color: theme.secondary }}>8 Week Fundamentals</h1>
-      </div>
+      <AboutCourse />
       <div className='beginnerBootcamp--container'>
         <div className='courses--container'>
           <Grid

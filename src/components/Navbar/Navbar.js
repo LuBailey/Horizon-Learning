@@ -190,7 +190,7 @@ function Navbar() {
               <NavLink to='/tutor' smooth={true} spy='true' duration={2000}>
                 <div className={classes.drawerItem}>
                   <FaUser className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>About</span>
+                  <span className={classes.drawerLinks}>About Me</span>
                 </div>
               </NavLink>
             </Fade>
@@ -211,6 +211,7 @@ function Navbar() {
               </NavLink>
             </Fade>
 
+            {/*
             <Fade left>
               <NavLink
                 to='/japaneseforbeginners'
@@ -220,11 +221,11 @@ function Navbar() {
               >
                 <div className={classes.drawerItem}>
                   <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Japanese 日本語</span>
+                  <span className={classes.drawerLinks}>Japanese Corner</span>
                 </div>
               </NavLink>
             </Fade>
-
+          */}
             <Fade left>
               <NavLink to='/projects' smooth={true} spy='true' duration={2000}>
                 <div className={classes.drawerItem}>

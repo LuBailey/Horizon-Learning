@@ -100,6 +100,9 @@
 }
 
 @media (max-width: 1100px) {
+  .landing {
+    height: 115vh;
+  }
   .landing--img {
     --img-size: 350px;
   }

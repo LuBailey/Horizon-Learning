@@ -37,9 +37,13 @@ function AboutCourse() {
               <li>{aboutWebCourse.description1}</li>
               <li>{aboutWebCourse.description2}</li>
               <li>{aboutWebCourse.description3}</li>
+              <li>{aboutWebCourse.description4}</li>
             </ul>
             <br />
-            {aboutWebCourse.description4}
+            {aboutWebCourse.description5}
+            <br />
+            <br />
+            {aboutWebCourse.description6}
           </p>
         </div>
         {/*

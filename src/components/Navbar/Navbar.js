@@ -226,6 +226,7 @@ function Navbar() {
               </NavLink>
             </Fade>
           */}
+            {/*
             <Fade left>
               <NavLink to='/projects' smooth={true} spy='true' duration={2000}>
                 <div className={classes.drawerItem}>
@@ -234,6 +235,8 @@ function Navbar() {
                 </div>
               </NavLink>
             </Fade>
+
+        */}
 
             <Fade left>
               <NavLink to='/#contacts' smooth={true} spy='true' duration={2000}>

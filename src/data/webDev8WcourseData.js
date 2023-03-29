@@ -61,7 +61,7 @@ export const webDev8WcourseData = [
     id: 8,
     title: 'Week Eight',
     description:
-      'No good having the website only on your computer - deploy the site to the web! Showcase your website - the good, bad and ugly!',
+      'No good having the website only on your computer - deploy the site to the web! Showcase your website for the world to see!',
     image: exampleSite,
   },
 ];

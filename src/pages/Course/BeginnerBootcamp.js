@@ -6,7 +6,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from 'react-icons/ai';
 
 import './BeginnerBootcamp.css';
-import { SingleCourse, Navbar, AboutCourse, About } from '../../components';
+import {
+  SingleCourse,
+  Navbar,
+  AboutCourse,
+  About,
+  Footer,
+} from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { webDev8WcourseData } from '../../data/webDev8WcourseData';
 import { headerData } from '../../data/headerData';
@@ -104,6 +110,7 @@ function BeginnerBootcamp() {
           </Grid>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

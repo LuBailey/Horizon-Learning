@@ -16,7 +16,7 @@ import {
   FaBlogger,
 } from 'react-icons/fa';
 
-function Landing() {
+function MainLanding() {
   const { theme, drawerOpen } = useContext(ThemeContext);
 
   const useStyles = makeStyles((t) => ({
@@ -153,8 +153,13 @@ function Landing() {
             <p>{mainPageHeaderData.desciption}</p>
 
             <div className='lcr-buttonContainer'>
-              <NavLink to='/courses' smooth={true} spy='true' duration={2000}>
-                <Button className={classes.contactBtn}>View Courses</Button>
+              <NavLink
+                to='/beginnerbootcamp'
+                smooth={true}
+                spy='true'
+                duration={2000}
+              >
+                <Button className={classes.contactBtn}>View Course</Button>
               </NavLink>
               <NavLink to='/#contacts' smooth={true} spy='true' duration={2000}>
                 <Button className={classes.contactBtn}>Contact</Button>
@@ -167,4 +172,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default MainLanding;

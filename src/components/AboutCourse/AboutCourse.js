@@ -30,8 +30,8 @@ function AboutCourse() {
         <div className='about-description'>
           <h2 style={{ color: theme.primary }}>{aboutWebCourse.title}</h2>
           <p style={{ color: theme.tertiary80 }}>
-            {aboutWebCourse.statement}
-            <br />
+            <h2>{aboutWebCourse.statement}</h2>
+
             <br />
             <ul>
               <li>{aboutWebCourse.description1}</li>
@@ -43,6 +43,23 @@ function AboutCourse() {
             {aboutWebCourse.description5}
             <br />
             <br />
+            {aboutWebCourse.price1}
+            <br />
+            <b>
+              <u>{aboutWebCourse.price2}</u>
+            </b>
+            <br />
+            <br />
+            <h2>{aboutWebCourse.requirementTitle}</h2>
+
+            <br />
+            <ul>
+              <li> {aboutWebCourse.requirement1} </li>
+              <li>{aboutWebCourse.requirement2}</li>
+              <br />
+              <br />
+            </ul>
+
             {aboutWebCourse.description6}
           </p>
         </div>

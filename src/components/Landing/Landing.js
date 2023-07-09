@@ -41,6 +41,7 @@ function Landing() {
         width: '180px',
       },
     },
+
     contactBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
@@ -64,7 +65,6 @@ function Landing() {
       },
     },
   }));
-
   const classes = useStyles();
 
   return (
@@ -151,7 +151,7 @@ function Landing() {
             <h6>{headerData.title}</h6>
             <h1>{headerData.name}</h1>
             <p>{headerData.desciption}</p>
-
+            {/*
             <div className='lcr-buttonContainer'>
               <NavLink to='/blog' smooth={true} spy='true' duration={2000}>
                 <Button className={classes.contactBtn}>View Courses</Button>
@@ -160,6 +160,7 @@ function Landing() {
                 <Button className={classes.contactBtn}>Contact</Button>
               </NavLink>
             </div>
+            */}
           </div>
         </div>
       </div>

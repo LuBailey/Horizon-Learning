@@ -86,7 +86,7 @@ function Navbar() {
       borderRadius: '78.8418px',
       background: theme.secondary,
       color: theme.primary,
-      width: '85%',
+      width: '95%',
       height: '60px',
       display: 'flex',
       alignItems: 'center',
@@ -187,7 +187,7 @@ function Navbar() {
             </Fade>
 
             <Fade left>
-              <NavLink to='/tutor' smooth={true} spy='true' duration={2000}>
+              <NavLink to='/aboutme' smooth={true} spy='true' duration={2000}>
                 <div className={classes.drawerItem}>
                   <FaUser className={classes.drawerIcon} />
                   <span className={classes.drawerLinks}>About Me</span>

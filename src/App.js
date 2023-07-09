@@ -40,7 +40,7 @@ function App() {
           />
           <Route path='/projects' exact component={ProjectPage} />
           <Route path='/about' exact component={AboutPage} />
-          <Route path='/tutor' exact component={Tutor} />
+          <Route path='/aboutme' exact component={Tutor} />
 
           <Redirect to='/' />
         </Switch>

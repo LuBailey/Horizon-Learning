@@ -110,7 +110,7 @@ function BeginnerBootcamp() {
           </Grid>
         </div>
       </div>
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }

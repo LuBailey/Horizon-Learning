@@ -38,7 +38,7 @@ function Main() {
       {/* <Blog /> */}
       <Services />
       <Contacts />
-      <Footer />
+      {/*<Footer />}*/}
     </div>
   );
 }

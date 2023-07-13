@@ -29,6 +29,9 @@ function AboutCourse() {
       <div className='about-body'>
         <div className='about-description'>
           <h2 style={{ color: theme.primary }}>{aboutWebCourse.title}</h2>
+          <h3 style={{ color: theme.primary }}>
+            {aboutWebCourse.tasterSesion}
+          </h3>
           <p style={{ color: theme.tertiary80 }}>
             <h2>{aboutWebCourse.statement}</h2>
 

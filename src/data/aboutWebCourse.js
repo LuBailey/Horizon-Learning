@@ -12,7 +12,7 @@ export const aboutWebCourse = {
   description4:
     "I'll be there every step of the way and will provide support outside of class hours on projects and assignments.",
   description5:
-    'At the end of the course, you will have insight into the role of a developer and you will be better equipped to apply for developer roles or dive deeper into frontend tools such as React, Angular, Vue',
+    'At the end of the course, you will have insight into the role of a developer and you will be better equipped to apply for developer roles or dive deeper into frontend tools such as React, Angular, Vue.',
   description6:
     'Below is a short description of what to expect to learn each week!',
   price1: 'The full price of the 8 week course is £950.',

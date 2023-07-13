@@ -161,8 +161,8 @@ function MainLanding() {
               >
                 <Button className={classes.contactBtn}>View Course</Button>
               </NavLink>
-              <NavLink to='/#contacts' smooth={true} spy='true' duration={2000}>
-                <Button className={classes.contactBtn}>Contact</Button>
+              <NavLink to='/tutor' smooth={true} spy='true' duration={2000}>
+                <Button className={classes.contactBtn}>About Me</Button>
               </NavLink>
             </div>
           </div>

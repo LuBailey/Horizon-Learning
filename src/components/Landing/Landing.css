@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
   position: relative;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .landing--container-left {
-  flex: 35%;
+  flex: 25%;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -53,7 +54,7 @@
 }
 
 .landing--container-right {
-  flex: 65%;
+  flex: 75%;
   height: 100%;
   background-color: #eaeaea;
   display: flex;
@@ -63,7 +64,7 @@
 }
 
 .lcr--content {
-  width: 45%;
+  width: 65%;
   margin-right: 7rem;
   font-family: var(--primaryFont);
   font-style: normal;

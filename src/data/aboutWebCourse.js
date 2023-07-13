@@ -17,9 +17,9 @@ export const aboutWebCourse = {
   price2: 'Taster day attendees have a special offer of £800!',
   requirementTitle: "What you'll need to bring!",
   requirement1:
-    "A laptop (I don't recommend coding with a smartphone, it's hard enough as it is :)",
+    "A laptop",
   requirement2:
-    'A willingness to learn and be ok with making mistakes, especially in the beginning!!',
+    'A willingness to learn and be ok with making mistakes, especially in the beginning.',
 
   image: 1,
 };

@@ -18,10 +18,11 @@ export const servicesData = [
   //  title: 'DOTA 2 deboost',
   //  icon: <GiGamepad />,
   // },
+
   {
     id: 3,
-    title: 'Scientific Reports (LaTeX)',
-    icon: <HiOutlineDocumentReport />,
+    title: 'Web Development',
+    icon: <BsCodeSlash />,
   },
   // {
   //     id: 4,
@@ -36,8 +37,8 @@ export const servicesData = [
 
   {
     id: 6,
-    title: 'Web Development',
-    icon: <BsCodeSlash />,
+    title: 'Scientific Reports (LaTeX)',
+    icon: <HiOutlineDocumentReport />,
   },
 
   // {

@@ -268,6 +268,7 @@ function Contacts() {
           </div>
 
           <div className='contacts-details'>
+            {/*
             <a
               //href={`mailto:${contactsData.email}`}
               className='personal-details'
@@ -277,6 +278,8 @@ function Contacts() {
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
             </a>
+              */}
+
             {/*                       <a 
                             // href={`tel:${contactsData.phone}`}
                             className='personal-details'

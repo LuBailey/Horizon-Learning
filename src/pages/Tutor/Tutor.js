@@ -34,7 +34,7 @@ function Tutor() {
       {/* <Blog /> */}
       {/* <Services /> */}
       {/* <Contacts /> */}
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }
